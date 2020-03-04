@@ -1,0 +1,11 @@
+nav.bg-blue{
+    background-color: dodgerblue;
+}
+nav.bg-blue a{
+    color: white;
+    font-size: 20px;
+}
+.intro-title , .intro-subtitle{
+    color: dodgerblue;
+}
+
