@@ -1,11 +1,31 @@
-nav.bg-blue{
-    background-color: dodgerblue;
+:root{
+    --colorPrimary:#5eafff;
+    --colorPrimaryDark:#417ab2;
 }
-nav.bg-blue a{
-    color: white;
-    font-size: 20px;
-}
+
 .intro-title , .intro-subtitle{
     color: dodgerblue;
+}
+
+/* show dropdown menu on hover */
+.dropdown:hover .dropdown-menu{
+ display: block;
+}
+/* recolorizing navabar */
+nav.navbar{
+    background-color: var(--colorPrimary);
+    padding: 0;
+}
+nav a{
+    color:white;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 12px 16px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: var(--colorPrimary);
+    background-color: white;
+    text-decoration: none;
 }
 
