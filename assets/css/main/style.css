@@ -51,7 +51,22 @@ border: none ;
     border: 1px solid #ddd;
 }
 
+@media only  screen and (max-width: 600px) {
+    body{
+        background-color: crimson !important;
+    }
 
+    nav.navbar{
+        height: 500px !important;
+    }
+
+    .nav-item{
+        display: block;
+        width: 100%;
+    }
+
+    
+  }
 
 
 
