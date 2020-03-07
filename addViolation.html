@@ -1,4 +1,4 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,8 +10,8 @@
     <link type="text/css" rel="stylesheet" href="assets/css/main/style.css" >
 </head>
 <body>
-     <!--  start navbar  -->
-     <nav class="navbar navbar-expand-lg ">
+    <!--  start navbar  -->
+    <nav class="navbar navbar-expand-lg ">
       <a class="navbar-brand" href="#">Traffic Violation</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -44,47 +44,32 @@
     </div>
     </div>
     <div class="row p-5">
-        <div class="col-sm-9 offset-sm-1 col-lg-6 offset-lg-0">
+        <div class="col-sm-9 offset-sm-1 col-lg-6 offset-lg-0 mb-3">
              
              <div class="card">
-              <img src="assets/imgs/cop.png" class="card-img-top" alt="police officer picture">
+              <img src="assets/imgs/violation.png" class="card-img-top" alt="police officer picture">
             </div>
       
         </div>
-        <div class="col-sm-9 offset-sm-1 col-lg-6 offset-lg-0 mb-3">
-          <form>
+        <div class="col-sm-9 offset-sm-1 col-lg-6 offset-lg-0">
+            <form>
 
-            <div class="form-group">
-                <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
-              </div>
+                <div class="form-group">
+                    <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="title of vioaltion">
+                  </div>
 
-            <div class="form-group">
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone">
-            </div>
+                <div class="form-group">
+                  <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="number of violation">
+                </div>
 
-            <div class="form-group">
-              <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="SSN">
-            </div>
-            
-            <div class="form-group ">
-                <label for="inputState">Rank</label>
-                <select id="inputState" class="form-control">
-                  <option selected>Captain</option>
-                  <option>colonel</option>
-                  <option>lieutenant</option>
-                </select>
-              </div>
-              <div class="form-group ">
-                <label for="inputState">Police Office</label>
-                <select id="inputState" class="form-control">
-                  <option selected>Cairo</option>
-                  <option>Giza</option>
-                  <option>Sharm</option>
-                  <option>Harghada</option>
-                </select>
-              </div>
-            <button type="submit" class="btn btn-primary btn-block">Sign Up</button>
-          </form>
+                <div class="form-group">
+                    <textarea class="form-control" name="description of violation" id="" cols="30" rows="10"></textarea>
+                </div>
+                
+               
+                
+                <button type="submit" class="btn btn-primary btn-block">Submit Violation</button>
+              </form>
       </div>
       
       </div>

@@ -29,3 +29,33 @@ nav a:hover{
     text-decoration: none;
 }
 
+/* policemen page */
+
+.police-img , .police-info {
+    float: left !important;
+}
+.police-img{
+    width:200px;
+    height: 200px;
+}
+/* End police man  */
+
+/* delete card border */
+.card{
+border: none ; 
+}
+
+
+/* Violations */
+.violation{
+    border: 1px solid #ddd;
+}
+
+
+
+
+
+
+
+
+

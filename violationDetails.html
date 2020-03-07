@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign in page </title>
+    <title>Policeman details </title>
     <link type="text/css"  rel="stylesheet" href="assets/css/bootstrap-4.3.1-dist/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/fontawesome/css/all.min.css" >
 
     <link type="text/css" rel="stylesheet" href="assets/css/main/style.css" >
 </head>
 <body>
-   <!--  start navbar  -->
-   <nav class="navbar navbar-expand-lg ">
+ <!--  start navbar  -->
+ <nav class="navbar navbar-expand-lg ">
     <a class="navbar-brand" href="#">Traffic Violation</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -36,10 +36,31 @@
   </nav>
 
 <!-- end navabar -->
-<div class="container">
-  
-</div>
 
+<div class="container">
+        <div class="row m-5 p-3">
+            <div class="col-sm-12 col-md-3">
+                <div class="card">
+                    <img class="card-img-top" src="assets/imgs/driver.png" alt="Card image cap">            
+                  </div>
+            </div>
+            <div class="col-sm-12 col-md-9">
+                <div class="card">
+                    <div class="card-body ">
+                      <h2 class="card-title">Violation: <span>overspeed</span>  </h2>
+                      <h3 class="card-title">Violation Nember : <span>22324434</span> </h3>
+                      <h3 class="card-title">Vihcle<span>BMW</span> </h3>
+                      <h3 class="card-title"> Taken By <span> captain : mohammed </span>  </h3>
+                      <a href="addViolation.html" class="btn btn-success btn-block">Edit</a>
+                      <a href="#" class="btn btn-danger btn-block">Delete</a>
+
+                      <a href="violations.html" class="btn btn-dark btn-block">Back</a>
+                    
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>
